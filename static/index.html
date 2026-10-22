@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Synthesist</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand"><div class="logo">🔍</div> Research Synthesist</div>
+      <nav class="nav" id="nav">
+        <a href="#/" data-route="dashboard">🏠 Dashboard</a>
+        <a href="#/new" data-route="new">➕ New research</a>
+        <a href="#/history" data-route="history">🗂️ History</a>
+        <a href="#/settings" data-route="settings">⚙️ Settings</a>
+      </nav>
+      <div class="foot" id="foot-status">Checking configuration…</div>
+    </aside>
+    <main class="main" id="view"><div class="empty">Loading…</div></main>
+  </div>
+  <div class="toast-wrap" id="toasts"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
